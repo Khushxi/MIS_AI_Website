@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250">
+  <rect width="400" height="250" fill="#0b0f0b"/>
+  <g font-family="Courier New" font-size="12" fill="#1f7a1f" opacity="0.6">
+    <text x="10" y="20">01001101 01000001 01001100</text><text x="230" y="40">ACCESS DENIED</text>
+    <text x="20" y="230">10110 00101 11100 01011</text><text x="250" y="225">0xDEADBEEF</text>
+  </g>
+  <rect x="210" y="70" width="150" height="100" rx="6" fill="#1c1c1c" stroke="#ff3b3b" stroke-width="3"/>
+  <rect x="270" y="170" width="30" height="15" fill="#333"/><rect x="245" y="185" width="80" height="8" fill="#333"/>
+  <rect x="268" y="110" width="34" height="28" rx="3" fill="#ff3b3b"/>
+  <path d="M275 110 V98 a10 10 0 0 1 20 0 V110" stroke="#ff3b3b" stroke-width="5" fill="none"/>
+  <text x="285" y="160" font-family="Arial" font-size="12" fill="#ff3b3b" text-anchor="middle" font-weight="bold">FILES ENCRYPTED</text>
+  <circle cx="80" cy="105" r="30" fill="#222" stroke="#39ff14" stroke-width="2"/>
+  <path d="M30 190 Q80 120 130 190 Z" fill="#222" stroke="#39ff14" stroke-width="2"/>
+  <rect x="62" y="98" width="36" height="10" rx="4" fill="#39ff14"/>
+  <g stroke="#39ff14" stroke-width="3" fill="none" stroke-dasharray="8 6">
+    <path d="M135 120 L205 120"/><path d="M190 110 L205 120 L190 130"/>
+  </g>
+  <text x="200" y="35" font-family="Arial" font-size="20" fill="#ff3b3b" text-anchor="middle" font-weight="bold">CYBER ATTACK</text>
+</svg>

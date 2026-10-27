@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="60%"><stop offset="0" stop-color="#1b2a6b"/><stop offset="1" stop-color="#05071a"/></radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="300" height="300" fill="url(#bg)"/>
+  <g filter="url(#glow)" stroke="#5ff4ff" stroke-width="1.5" fill="none" opacity="0.9">
+    <path d="M150 60 C95 55 60 95 65 140 C55 175 80 215 120 220 C135 240 150 235 150 235 C150 235 165 240 180 220 C220 215 245 175 235 140 C240 95 205 55 150 60 Z" stroke-width="3"/>
+    <line x1="150" y1="62" x2="150" y2="233" stroke-dasharray="4 4"/>
+    <path d="M95 110 L130 95 L120 140 L90 160 L125 180 L140 205"/>
+    <path d="M205 110 L170 95 L180 140 L210 160 L175 180 L160 205"/>
+    <path d="M130 95 L180 140 M170 95 L120 140 M120 140 L180 140 M90 160 L210 160 M125 180 L175 180"/>
+  </g>
+  <g fill="#ffffff" filter="url(#glow)">
+    <circle cx="95" cy="110" r="5"/><circle cx="130" cy="95" r="5"/><circle cx="120" cy="140" r="5"/><circle cx="90" cy="160" r="5"/><circle cx="125" cy="180" r="5"/><circle cx="140" cy="205" r="5"/>
+    <circle cx="205" cy="110" r="5"/><circle cx="170" cy="95" r="5"/><circle cx="180" cy="140" r="5"/><circle cx="210" cy="160" r="5"/><circle cx="175" cy="180" r="5"/><circle cx="160" cy="205" r="5"/>
+  </g>
+  <text x="150" y="275" font-family="Arial" font-size="18" fill="#5ff4ff" text-anchor="middle">Neural Network</text>
+</svg>
