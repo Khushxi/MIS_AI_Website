@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
-  <rect width="200" height="200" rx="100" fill="#500000"/>
-  <circle cx="100" cy="78" r="38" fill="#F5F0E6"/>
-  <path d="M35 175 Q100 100 165 175 Z" fill="#F5F0E6"/>
-  <text x="100" y="192" font-family="Arial" font-size="14" fill="#F5F0E6" text-anchor="middle" font-weight="bold">KG</text>
-</svg>
